@@ -1,0 +1,28 @@
+Markdown
+---
+layout: default
+title: MBSE Architecture Framework
+nav_order: 2
+has_children: true
+---
+
+# Hauptseite Systemarchitektur
+Hier können Sie eine allgemeine Einführung in Ihre Architektur schreiben.
+
+*Erklärung:* `nav_order: 2` bestimmt die Position im linken Menü (die Home-Seite hat die 1). `has_children: true` bedeutet, dass diese Seite Unterseiten haben darf (wie ein ausklappbarer Ordner).
+4. Klicken Sie auf **Commit changes...**.
+
+### Schritt 3: Eine Unterseite erstellen (z. B. „Funktionale Architektur“)
+Jetzt erstellen wir eine Unterseite, die unterhalb von "Systemarchitektur" einsortiert wird:
+1. Erstellen Sie wieder eine neue Datei, z. B. `funktionale-architektur.md`.
+2. Fügen Sie diesen Text ein:
+   ```markdown
+   ---
+   layout: default
+   title: Funktionale Architektur
+   parent: Systemarchitektur
+   nav_order: 1
+   ---
+
+   # Funktionale Architektur
+   Hier dokumentieren Sie die Funktionen Ihres Systems...
