@@ -1,8 +1,18 @@
-title: MBSE - SAF page
-description: Entwurf Umzug Confluence Seiten
-theme: just-the-docs
+# Titel der Webseite (Das steht ganz oben links im Menü)
+title: "MBSE Architecture Framework"
 
-url: https://just-the-docs.github.io
+# Kurze Beschreibung Ihrer Seite
+description: "Ein System Architecture Framework basierend auf MBSE."
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Das Design-Thema – HIER DARF NUR DIESER TEXT STEHEN:
+theme: "just-the-docs"
+
+# Steuert die URL-Struktur auf GitHub Pages
+remote_theme: just-the-docs/just-the-docs
+
+# Einstellungen für die eingebaute Suchfunktion
+search_enabled: true
+search:
+  tokenizer: separator
+  separator: '[\s\-\.]+'
+  
